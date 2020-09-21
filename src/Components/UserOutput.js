@@ -1,9 +1,10 @@
 import React from 'react';
 
 const UserOutput = (props) => {
+  console.log(props)
   return (
     <div>
-      <p>My name is {props.name} and I am {props.age} years old</p>
+      <p onClick={props.click}>My name is {props.name} and I am {props.age} years old</p>
       <p>{props.children}</p>
     </div>
   )
