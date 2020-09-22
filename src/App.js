@@ -79,8 +79,8 @@ class App extends Component {
         {/* <li>Add a method to manipulate the state (=> an event-handler method)</li> */}
         {/* <li>Pass the event-handler method reference to the UserInput component and bind it to the input-change event</li> */}
         {/* <li>Ensure that the new input entered by the user overwrites the old username passed to UserOutput</li> */}
-        <li style={style}>Add two-way-binding to your input (in UserInput) to also display the starting username</li>
-        <li>Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets</li>
+        {/* <li style={style}>Add two-way-binding to your input (in UserInput) to also display the starting username</li>
+        <li>Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets</li> */}
       </ol>
     </div>
     );
